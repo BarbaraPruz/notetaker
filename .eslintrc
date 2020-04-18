@@ -1,0 +1,40 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "globals": {
+    "__webpack_public_path__": true,
+    "describe": false,
+    "xdescribe": false,
+    "context": false,
+    "xcontext": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false
+  },
+
+  "env": {
+    // I write for browser
+    "browser": true,
+    // in CommonJS
+    "node": true
+  },
+
+  // To give you an idea how to override rule options:
+  "rules": {
+    "quotes": [2, "single"],
+    "eol-last": [0],
+    "no-mixed-requires": [0],
+    "no-underscore-dangle": [0],
+    "no-console": [0],
+    "semi": ["error", "always"]
+  },
+
+  "extends": [ "eslint:recommended"]
+}
