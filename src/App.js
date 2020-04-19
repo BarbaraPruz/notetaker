@@ -1,3 +1,5 @@
+// Class Component Implementation Example - NOT USED!
+
 import React, { Component } from 'react';
 import '@aws-amplify/ui/dist/style.css';
 
